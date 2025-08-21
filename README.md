@@ -41,21 +41,36 @@ The goal is to create a modular R workflow that can be reused for other cities o
 
 ## 🗺️ Example Visualizations
 
-### Choropleth Map – PCA SoVI
-![PCA SoVI Map](figures/pca_sovi_map.png)  
-*Higher scores (darker areas) indicate greater social vulnerability by PCA method.*
+
+### Choropleth Maps - PCA Social Vulnerability Index
+
+![PCA SoVI Map](figures/sovi_pca.png)  
+*CDC weighted method applied to Cook County census tracts.*
 
 ---
 
-### Choropleth Map – CDC SoVI
-![CDC SoVI Map](figures/cdc_svi_map.png)  
+### Choropleth Map – CDC Social Vulnerability Index & Domains
+![CDC SoVI Map](figures/svi_cdc.png)  
 *CDC weighted method applied to Cook County census tracts.*
+
+---
+
+| Domain - Socioeconomic Status | Domain - Household & Disability |
+|-------------|----------|
+| ![Domain - Socioeconomic Status](figures/dom_ses.png) | ![Domain - Household & Disability](figures/dom_household.png) |
+
+
+| Domain - Minority & Language | Domain - Housing & Transportation |
+|-------------|----------|
+| ![Domain - Minority & Language](figures/dom_minority.png) | ![Domain - Housing & Transportation](figures/dom_housing.png) |
 
 ---
 
 ### Scatterplot – Comparing PCA vs CDC SoVI
 ![CDC vs PCA SoVI Scatter](figures/cdc_svi_vs_pca_sovi_scatter.png)  
-*A comparison between PCA-based and CDC-weighted SoVI scores. Red line shows linear fit (R² = 0.83).*
+*A comparison between PCA-based and CDC-weighted SoVI scores. Red line shows linear fit (R² = 0.694).* 
+
+*Correlation between the two methods was r = 0.833*
 
 ---
 
