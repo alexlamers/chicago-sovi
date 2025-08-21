@@ -30,9 +30,9 @@ The goal is to create a modular R workflow that can be reused for other cities o
 ---
 
 ## 📂 Files
-- `cdc_svi.csv` – Final SoVI scores by census tract using the CDC weighted method.  
-- `pca_sovi.csv` – Final SoVI scores by census tract using the PCA method.  
-- `sovi_script.R` – Main R script to download ACS data, process indicators, normalize, and compute SoVI.  
+- [svi_cdc.csv](svi_cdc.csv) – Final SoVI scores by census tract using the CDC weighted method.  
+- [sovi_pca.csv](sovi_pca.csv) – Final SoVI scores by census tract using the PCA method.  
+- [sovi_script.R](sovi_script.R) – Main R script to download ACS data, process indicators, normalize, and compute SoVI.  
 - `data/` – (Optional) Directory for storing raw ACS pulls or shapefiles if spatial joins are included.  
 - `figures/` – Example plots and maps generated from the analysis.  
 
