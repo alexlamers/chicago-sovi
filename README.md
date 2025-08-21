@@ -21,9 +21,9 @@ The goal is to create a modular R workflow that can be reused for other cities o
    - All variables are normalized to a **0–1 scale** for consistency.  
 
 3. **Two Approaches**  
-   - **CDC SoVI (`cdc_svi.csv`):**  
+   - **CDC SoVI (`svi_cdc.csv`):**  
      Uses the CDC’s weighting scheme, where indicators are grouped and combined into themes before final scoring.  
-   - **PCA SoVI (`pca_sovi.csv`):**  
+   - **PCA SoVI (`sovi_pca.csv`):**  
      Uses **Principal Component Analysis (PCA)** to reduce dimensionality and capture variance in the data.  
      This approach identifies key drivers of vulnerability empirically, rather than relying on predefined weights.
 
