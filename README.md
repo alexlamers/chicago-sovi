@@ -22,7 +22,7 @@ The goal is to create a modular R workflow that can be reused for other cities o
 
 3. **Two Approaches**  
    - **CDC SoVI (`svi_cdc.csv`):**  
-     Uses the CDC’s weighting scheme, where indicators are grouped and combined into themes before final scoring.  
+     Uses the CDC’s weighting scheme, where indicators are grouped and combined into four domains (Socioecomonic Status, Household Composition & Disability, Minority Status & Language, Housing Type & Transportation) before final scoring.  
    - **PCA SoVI (`sovi_pca.csv`):**  
      Uses **Principal Component Analysis (PCA)** to reduce dimensionality and capture variance in the data.  
      This approach identifies key drivers of vulnerability empirically, rather than relying on predefined weights.
