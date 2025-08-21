@@ -53,7 +53,7 @@ The goal is to create a modular R workflow that can be reused for other cities o
 ---
 
 ### Scatterplot – Comparing PCA vs CDC SoVI
-![CDC vs PCA SoVI Scatter](figures/pca_vs_cdc_scatter.png)  
+![CDC vs PCA SoVI Scatter](figures/cdc_svi_vs_pca_sovi_scatter.png)  
 *A comparison between PCA-based and CDC-weighted SoVI scores. Red line shows linear fit (R² = 0.83).*
 
 ---
