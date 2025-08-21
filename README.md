@@ -62,7 +62,7 @@ The goal is to create a modular R workflow that can be reused for other cities o
 ## 🔍 Next Steps
 - Map results in **R (ggplot2/tmap)** or **QGIS** for visualization.  
 - Compare SoVI scores against environmental data (e.g., flood risk, heat islands, pollution burden).  
-- Explore expanding the workflow to other counties or states.  
+- Expand the workflow for other counties and states in a more generalized script. 
 
 ---
 
