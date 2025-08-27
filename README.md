@@ -91,7 +91,7 @@ The goal is to create a modular R workflow that can be reused for other cities o
 ## 🚀 How to Run
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/chicago-sovi.git
+git clone https://github.com/alexlamers/chicago-sovi.git
 cd chicago-sovi
 
 # Open R and run
