@@ -45,13 +45,13 @@ The goal is to create a modular R workflow that can be reused for other cities o
 ### Choropleth Maps - PCA Social Vulnerability Index
 
 ![PCA SoVI Map](figures/sovi_pca.png)  
-*CDC weighted method applied to Cook County census tracts.*
+*Principal Component Analysis (PCA) used to combine multiple social and economic indicators into a single composite score, highlighting areas of higher social vulnerability.*
 
 ---
 
 ### Choropleth Map – CDC Social Vulnerability Index & Domains
 ![CDC SoVI Map](figures/svi_cdc.png)  
-*CDC weighted method applied to Cook County census tracts.*
+*CDC Social Vulnerability Index method applied to Cook County census tracts, combining equally weighted indicators within domains and then across domains.*
 
 ---
 
